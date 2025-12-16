@@ -106,20 +106,6 @@ function animateSkillBars() {
 window.addEventListener("scroll", animateSkillBars)
 window.addEventListener("load", animateSkillBars)
 
-// Contact Form Submission
-document.getElementById("contact-form").addEventListener("submit", function (e) {
-  e.preventDefault()
-
-  // Get form data
-  const formData = new FormData(this)
-
-  // Show success message
-  alert("Thank you for your message! I will get back to you soon.")
-
-  // Reset form
-  this.reset()
-})
-
 // Scroll Reveal Animation
 function reveal() {
   const reveals = document.querySelectorAll(".education-content, .skills-content")
