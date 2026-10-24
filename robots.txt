@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gauravkushwaha.netlify.app/sitemap.xml
